@@ -1,6 +1,6 @@
 score = int(input("Enter score:"))
 # 77 '77'
-# if statement
+# if statement xyz
 if score >= 90:
     print("A")
 elif 80 <= score <= 89:
