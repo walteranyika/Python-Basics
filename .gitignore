@@ -1,0 +1,9 @@
+# .gitignore
+.venv/
+.idea/
+
+# git init
+# git add .
+# git commit -m "Python basics"
+# git remote add origin https://github.com/walteranyika/Python-Basics.git
+# git push -u origin master
