@@ -6,4 +6,4 @@
 # git add .
 # git commit -m "Python basics"
 # git remote add origin https://github.com/walteranyika/Python-Basics.git
-# git push -u origin master
+# git push -u origin master/main
