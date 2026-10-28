@@ -1,6 +1,8 @@
 # .gitignore
 .venv/
 .idea/
+*.mp3
+*.txt
 
 # git init
 # git add .
