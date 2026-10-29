@@ -8,6 +8,7 @@ video_url = "https://www.youtube.com/watch?v=Gr2bA77_m9A"
 # Configuration options (mimics command-line flags)
 ydl_opts = {
     "format": "bestaudio/best",
+    # 'ffmpeg_location': r'C:\ffmpeg\bin',
     "postprocessors": [
         {
             "key": "FFmpegExtractAudio",
@@ -22,3 +23,7 @@ with yt_dlp.YoutubeDL(ydl_opts) as ydl:
     ydl.download([video_url])
 
 print("Download complete!")
+
+# https://justpaste.it/iq3it
+# winget install --id Gyan.FFmpeg -e
+# 'ffmpeg_location': r'C:\ffmpeg\bin',

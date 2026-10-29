@@ -27,18 +27,26 @@ students = [{"name":"Emerald Bowen","email":"ullamcorper.nisl@yahoo.org","countr
 #        print(f"Name is {name} and citizen of {country} and {age} years old")
 
 
-total = 0
-for s in students:
-    age = s["age"]
-    total = total + age # total += age
-
-avg = total/len(students)
-print(avg)
+# total = 0
+# for s in students:
+#     age = s["age"]
+#     total = total + age # total += age
+#
+# avg = total/len(students)
+# print(avg)
 
 # lambda expressions
-# TODO sort the list / filter
+# sort the list / filter
+def get_key(student):
+    return student["age"]
 
+#  lambda s: s['age']
+age_sorted = sorted(students, key= lambda s: s['age'])
 
+for student in age_sorted:
+    print(student)
+
+# Get the oldest person from Nigeria
 
 
 
