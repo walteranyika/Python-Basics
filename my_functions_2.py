@@ -70,3 +70,12 @@ print(res)
 # data = {"name":"Ken", "gender":"Male"} #[1, 2, 3]
 # for _,v in data.items():
 #     print(v)
+
+
+# TODO functions as a parameter
+
+
+
+
+
+
