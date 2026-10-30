@@ -14,12 +14,14 @@ def area_circle(radius, precision=3):
     print(result)
 
 
-def volume_cylinder(r, h):
+def volume_cylinder(r:float, h:float):
     v = 22/7 * r * r * h
     return v
 
 
 print(volume_cylinder(8.5, 12.8))
+
+
 
 res = volume_cylinder(6, 19)
 print(round(res))

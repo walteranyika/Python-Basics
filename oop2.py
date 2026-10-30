@@ -14,8 +14,14 @@ class Circle:
         print("Perimeter", self.get_perimeter())
         print("Area", self.get_area())
 
-c1 = Circle(14)
+c1 = Circle(14) # object
 c2 = Circle(19.77)
-
 c1.print_details()
 print(c1.get_area())
+
+# TODO
+# branch
+# push
+# raise Pull Request
+# accept == merge
+# deploy == server
